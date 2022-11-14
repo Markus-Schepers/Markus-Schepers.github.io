@@ -70,9 +70,9 @@ body {
     font-weight: 400;
     line-height: 1.5;
     /* color: #212529; */
-    color: #ec2d01; /* red; */ 
+    color: white; /* #ec2d01; /* red; */ 
     text-align: left;
-    background-color: #fec615; /* yellow; /* #fff */
+    background-color: #375FF0; /* #fec615; /* yellow; /* #fff */
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
