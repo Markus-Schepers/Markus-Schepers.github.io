@@ -175,13 +175,13 @@ sup {
 }
 
 a {
-    color: #1abc9c;
+    color:  #fec615; /* yellow; /* #fff .. #1abc9c; */
     text-decoration: none;
     background-color: transparent
 }
 
 a:hover {
-    color: #117964;
+    color: yellow; /* #117964; */
     text-decoration: underline
 }
 
@@ -216,10 +216,12 @@ img {
 img,
 svg {
     vertical-align: middle
+ 
 }
 
 svg {
-    overflow: hidden
+    overflow: hidden;
+    width: auto
 }
 
 table {
@@ -3266,12 +3268,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #1abc9c;
+    color:  #fec615; /* yellow; /* #fff  #1abc9c; */
     text-decoration: none
 }
 
 .btn-link:hover {
-    color: #117964;
+    color:  #fec615; /* yellow; /* #fff  #117964; */
     text-decoration: underline
 }
 
@@ -3283,7 +3285,7 @@ fieldset:disabled a.btn {
 
 .btn-link.disabled,
 .btn-link:disabled {
-    color: #6c757d;
+    color: yellow; /* #6c757d; */
     pointer-events: none
 }
 
