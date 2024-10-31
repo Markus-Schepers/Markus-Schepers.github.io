@@ -11139,6 +11139,10 @@ form .row:first-child .floating-label-form-group {
     white-space: pre-wrap
 }
 
+.pre-wrap.lead {
+    text-align: justify;
+}
+
 .icon-contact {
     display: flex;
     height: 5rem;
